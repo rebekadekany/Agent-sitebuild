@@ -26,17 +26,17 @@
     
 
         &__first {
-            background-image: linear-gradient(to right, #D7246C, #8004BF), url('assets/images/main-features-etrend.jpg');
+            background-image: url('assets/images/main-features-etrend.jpg');
            
         }
 
         &__middle {
-            background-image: url('/assets/images/main-features-edzesterv.jpg');
+            background-image: url('assets/images/main-features-edzesterv.jpg');
 
         }
 
         &__third {
-            background-image: url('/assets/images/main-features-fit-csomag.jpg');
+            background-image: url('assets/images/main-features-fit-csomag.jpg');
 
         }
     }
