@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5d8bf56df7ee2c9db8acf0263d5cc932a5c778c9398eafa09a08900f40d504c7
-size 946
+{
+  "name": "creative-agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "lodash": "^4.17.19",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kakapofelix/Agent-sitebuild.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kakapofelix/Agent-sitebuild/issues"
+  },
+  "homepage": "https://github.com/kakapofelix/Agent-sitebuild#readme"
+}

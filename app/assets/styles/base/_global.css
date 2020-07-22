@@ -1,3 +1,14 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5094164dc164395988eff1195650f00a1abc09af36a501c79fe9273b9bc050ec
-size 273
+body {
+    font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+    color: #333;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+
+* {
+    margin: 0;
+    letter-spacing: .05rem;
+    box-sizing: border-box;
+    padding: 0;
+}

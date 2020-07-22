@@ -1,3 +1,44 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8ffdefd715c750d9c6240ffb94162f5a40112cfa1d40b6662d2529f94e306024
-size 786
+#main-features {
+
+    .features-content {
+        transform: translateY(50%);
+
+    }
+
+    .features-flex {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        height: 330px;
+        align-items: center;
+
+
+        &__item {
+            flex: 1;
+            min-height: 330px;
+
+        }
+    }
+
+    .background-image {
+
+        max-width: 100%;
+    
+
+        &__first {
+            background-image: linear-gradient(to right, #D7246C, #8004BF), url('assets/images/main-features-etrend.jpg');
+           
+        }
+
+        &__middle {
+            background-image: url('/assets/images/main-features-edzesterv.jpg');
+
+        }
+
+        &__third {
+            background-image: url('/assets/images/main-features-fit-csomag.jpg');
+
+        }
+    }
+
+}
