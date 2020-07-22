@@ -1,0 +1,10 @@
+.btn {
+
+    &__color {
+        background-image: linear-gradient(to right, #48809E, #8004BF);
+    }
+
+    &__length {
+        padding: 15px 30px;
+    }
+}
