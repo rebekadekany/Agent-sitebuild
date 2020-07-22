@@ -1,3 +1,34 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6272ddfd0a52d5b137db0d3567a2aaa014003186608193a7b485298660aa099e
-size 803
+const path = require('path')
+
+const postCSSPlugins = [
+  require('postcss-import'),
+  require('postcss-simple-vars'),
+  require('postcss-nested'),
+  require('autoprefixer')
+]
+
+module.exports = {
+  entry: './app/assets/scripts/App.js',
+  output: {
+    filename: 'bundled.js',
+    path: path.resolve(__dirname, 'app')
+  },
+  devServer: {
+    before: function(app, server) {
+      server._watch('./app/**/*.html')
+    },
+    contentBase: path.join(__dirname, 'app'),
+    hot: true,
+    port: 3000,
+    host: '0.0.0.0'
+  },
+  mode: 'development',
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader?url=false', {loader: 'postcss-loader', options: {plugins: postCSSPlugins}}]
+      }
+    ]
+  }
+}
