@@ -1,10 +1,19 @@
 .btn {
+    padding: 10px 30px;
+    color: #fff;
 
     &__color {
         background-image: linear-gradient(to right, #48809E, #8004BF);
+        color: #fff;
     }
 
-    &__length {
-        padding: 15px 30px;
+    &__color-purple {
+        color: #8004BF; 
     }
+    
+}
+.form-control {
+    border-radius: 20px 0 0 20px;
+    color: #fff;
+    text-align: left;
 }
