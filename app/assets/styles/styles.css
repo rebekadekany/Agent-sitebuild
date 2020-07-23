@@ -1,4 +1,5 @@
 @import "base/_global";
+@import "base/_variables";
 @import "modules/_main-features.css";
 @import "modules/_large-hero.css";
 @import "modules/_button.css";
@@ -7,6 +8,12 @@
 @import "modules/_team.css";
 @import "modules/_follow.css";
 @import "modules/_footer.css";
+
+@font-face {
+    @import url("assets/fonts/Montserrat");
+    @import url("assets/fonts/Open_Sans");
+
+  }
 
 
 
