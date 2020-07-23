@@ -1,0 +1,65 @@
+#footer {
+    background-color: #2D2D2D;
+
+
+
+
+    .footer-instagram {
+        width: 83px;
+        height: 83px;
+
+    }
+
+    .news-img {
+        width: 58px;
+        height: 58px;
+    }
+
+    .footer-list {
+        list-style-type: none;
+    }
+
+    .hr {
+        border-top: 1px solid #fff;
+    }
+}
+
+.font-small {
+    font-size: 0.6em;
+}
+
+.copyright-section {
+    background-color: #282828;
+
+    a {
+        color: white;
+    }
+
+    .fab {
+        color: white;
+    }
+}
+
+.social-icons {
+    list-style-type: none;
+
+    li {
+        display: inline-block;
+        background-color: grey;
+        text-align: center;
+        height: 25px;
+        width: 25px;
+        border-radius: 100%;
+
+    }
+
+    a {
+        color: white;
+        font-size: 12x;
+        display: block;
+        
+    }
+
+
+}
+
