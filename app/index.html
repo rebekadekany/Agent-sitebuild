@@ -8,8 +8,17 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link href="styles.css">
+    <link href="assets/styles/slick.css">
+    </link>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.js"></script>
+
 
     <script src="https://use.fontawesome.com/1922a7c00b.js"></script>
+
 </head>
 
 <body>
@@ -18,11 +27,12 @@
 
     <section id="large-hero">
 
-        <nav class="navbar navbar-expand-md navbar-dark sticky-top  text-uppercase ">
+        <nav class="navbar navbar-expand-lg  navbar-dark sticky-top  text-uppercase ">
             <div class="container">
                 <div class="brand-container ">
                     <a class="navbar-brand font-weight-bold text-wrap " href="#">
-                         <span class="letter-space brand-font-size">IGP</span> <span class="font-small position">FITNESS</span>  
+                        <span class="letter-space brand-font-size">IGP</span> <span
+                            class="font-small position">FITNESS</span>
                     </a>
                 </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -52,9 +62,9 @@
 
                     <ul class="nav navbar-nav navbar-right">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">fiókom</a>
+                            <a class="nav-link text-white pr-4 font-weight-bold" href="#">fiókom</a>
                         </li>
-                        <button class="btn text-uppercase btn-outline-light  rounded-pill"
+                        <button class="btn btn__register text-uppercase btn-outline-light font-weight-bold rounded-pill"
                             type="submit">regisztráció</button>
                     </ul>
                 </div>
@@ -62,13 +72,26 @@
         </nav>
 
         <!-- Large-hero section -->
-        <div class="jumbotron bg-transparent">
+
+        <div class="col-sm-12 col-md-4">
+            <div class="hero-woman">
+                <img class="hero-woman__image" src="assets/images/hero-woman.png" alt="">
+            </div>
+
+            <div class="hero-man">
+                <img class="hero-man__image" src="assets/images/hero-man.png" alt="">
+            </div>
+        </div>
+
+
+        <div class="jumbotron bg-transparent  text-sm-center text-center text-md-left">
             <div class="container">
                 <div class="col-sm-12 col-md-7">
-                    <h4 class="text-white text-uppercase pb-2">individually guided project of fitness</h4>
+                    <h5 class="text-white text-uppercase pb-2 ">individually guided project of fitness</h5>
                     <h1 class="display-4 text-white text-uppercase font-weight-bold">igp fitness</h1>
-                    <h1 class="display-4 text-uppercase text-green font-weight-bold">shape your life</h1>
-                    <p class="pb-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+                    <h1 class="display-4 text-uppercase green-color font-weight-bold">shape your life</h1>
+                    <p class="pb-3 text-white">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                        nonummy nibh
                         euismod tincidunt
                         ut
                         laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
@@ -77,6 +100,8 @@
                     <button class="btn text-uppercase btn-outline-light  rounded-pill text-uppercase"
                         type="submit">tovább</button>
                 </div>
+
+
             </div>
         </div>
     </section>
@@ -117,10 +142,10 @@
 
 
     <div class="container-fluid pt-5 pb-5">
-        <div class="row offer text-center">
+        <div class="row offer text-center text-uppercase ">
             <div class="col-12">
-                <h3>amit mi kínálunk</h3>
-                <h1>fogalmazd meg a célod</h1>
+                <h5 class="purple-color font-weight-bold pb-3">amit mi kínálunk</h5>
+                <h3 class=" font-weight-bold">fogalmazd meg a célod</h3>
             </div>
         </div>
     </div>
@@ -129,7 +154,7 @@
         <div class="row offer text-center">
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                 <img class="pb-4" src="assets/images/offer1.png" alt="Card image cap">
-                <h3>egészséges élet</h3>
+                <h5 class=" font-weight-bold text-uppercase">egészséges élet</h5>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
                     tincidunt ut
                     laoreet dolore.</p>
@@ -137,7 +162,7 @@
 
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                 <img class="pb-4" src="assets/images/offer2.png" alt="Card image cap">
-                <h3>edzés</h3>
+                <h5 class=" font-weight-bold text-uppercase">edzés</h5>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
                     tincidunt ut
                     laoreet dolore.</p>
@@ -146,7 +171,7 @@
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
 
                 <img class="pb-4" src="assets/images/offer3.png" alt="Card image cap">
-                <h3>stratégia</h3>
+                <h5 class=" font-weight-bold text-uppercase">stratégia</h5>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
                     tincidunt ut
                     laoreet dolore.</p>
@@ -154,7 +179,7 @@
 
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
                 <img class="pb-4" src="assets/images/offer4.png" alt="Card image cap">
-                <h3>videok</h3>
+                <h5 class=" font-weight-bold text-uppercase">videok</h5>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
                     tincidunt ut
                     laoreet dolore.</p>
@@ -165,32 +190,32 @@
     <!-- How we can help you -->
 
 
-    <div class="container pt-5 pb-5">
-        <div class="media ">
+    <div id="help">
+        <div class="container">
 
-            <div class="col-xs-12 col-md-6">
+            <div class="help-aligned">
 
-
-                <div class="media-body float-left">
-                    <h3>változz velünk</h3>
-                    <h1 class="media-heading">hogyan segítünk?</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                <div class="help-aligned__left-description">
+                    <h5 class="text-uppercase purple-color font-weight-bold pb-2">változz velünk</h5>
+                    <h3 class="media-heading text-uppercase font-weight-bold pb-3">hogyan segítünk?</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                        tincidunt
                         ut
-                        laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
+                        laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
+                        exerci
                         tation
-                        ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+                        ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum
+                        iriure
                         dolor.</p>
                     <button class="btn  text-uppercase  btn__color   rounded-pill" type="submit">olvass
                         tovább</button>
                 </div>
-            </div>
 
-            <div class="col-xs-12 col-md-6">
-                <div class="media-right float-right">
-                    <a href="#">
-                        <img class="media-object w-75" src="assets/images/help-video&sulyzos-edzesek.jpg" alt="">
-                    </a>
+                <div class="help-aligned__right-image">
+                    <img src="assets/images/help-video&sulyzos-edzesek.jpg" alt="">
+
                 </div>
+
             </div>
         </div>
     </div>
@@ -198,14 +223,17 @@
     <!--Packages-->
 
     <section id="packages">
-        <div class="container">
-            <div class="row pt-5 pb-5">
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 d-flex">
+
+        <div class="container pt-5 pb-5">
+
+            <div class="row">
+
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 d-flex pb-4">
                     <div class="card text-center flex-fill">
-                        <div class="card-body ">
-                            <h2 class="card-title">20.000 Ft</h2>
-                            <p class="card-text">igp fitness</p>
-                            <h2 class="text-danger">étrend</h2>
+                        <div class="card-body text-uppercase">
+                            <h2 class="card-title font-weight-bold pb-4">20.000 Ft</h2>
+                            <p class="card-text font-weight-bold">igp fitness</p>
+                            <h2 class="text-danger font-weight-bold">étrend</h2>
                         </div>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item">Lorem ipsum </li>
@@ -219,12 +247,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 d-flex">
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 d-flex pb-4">
                     <div class="card text-center flex-fill">
-                        <div class="card-body">
-                            <h2 class="card-title">20.000 Ft</h2>
-                            <p class="card-text">igp fitness</p>
-                            <h2 class="text-danger">edzésterv</h2>
+                        <div class="card-body text-uppercase">
+                            <h2 class="card-title font-weight-bold pb-4">20.000 Ft</h2>
+                            <p class="card-text font-weight-bold">igp fitness</p>
+                            <h2 class=" font-weight-bold purple-color">edzésterv</h2>
                         </div>
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item">Lorem ipsum </li>
@@ -238,13 +266,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 d-flex">
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 d-flex pb-4">
                     <div class="card text-center flex-fill">
-                        <div class="card-body">
-                            <h2 class="card-title">15.000 Ft</h2>
-                            <p class="card-text">igp fitness</p>
-                            <h2 class="text-danger">fit csomag</h2>
+                        <div class="card-body text-uppercase">
+                            <h2 class="card-title font-weight-bold pb-4">15.000 Ft</h2>
+                            <p class="card-text font-weight-bold">igp fitness</p>
+                            <h2 class="font-weight-bold green-color">fit csomag</h2>
                         </div>
+                        
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item">Lorem ipsum </li>
                             <li class="list-group-item">Lorem ipsum dolor</li>
@@ -258,10 +287,10 @@
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 d-flex">
-                    <div class="card text-center flex-fill">
-                        <div class="card-body text-white  align-self-center">
-                            <h4 class="card-title">változz velünk</h4>
-                            <p class="card-text">igp</p>
+                    <div class="text-center flex-fill bg-transparent  my-auto">
+                        <div class="card-body  text-white align-self-center">
+                            <h6 class="card-title text-uppercase font-weight-bold">változz velünk</h6>
+                            <h2 class="card-text text-uppercase font-weight-bold pb-3 pt-3">igp</h2>
                             <p>Lorem ipsum dolor sit amet, consectetuer
                                 adipiscing elit, sed diam nonummy nibh
                                 euismod tincidunt ut laoreet dolore magna.</p>
@@ -270,33 +299,33 @@
                 </div>
 
             </div>
-
         </div>
 
     </section>
 
     <!--subscribe to our newsletter-->
     <section id="subscribe">
-        <div class="container">
-            <div class="row">
+        <div class="container ">
+            <div class="row pt-3 pb-3 text-white">
 
-                <div class="col-xs-12 col-md-6 text-white">
-                    <h5>ne maradj le semmiről</h5>
-                    <h2>iratkozz fel hírlevelünkre</h2>
+                <div class="col-xs-12 col-md-6 text-white text-uppercase text-center text-md-left">
+                    <h6>ne maradj le semmiről</h6>
+                    <h4>iratkozz fel hírlevelünkre</h4>
                 </div>
 
                 <div class="col-xs-12 col-md-6">
-                    <div class="input-group">
-                        <input type="email" class="form-control btn text-uppercase  btn-outline-light text-white"
-                            placeholder="Enter your email">
+                    <div class="input-group text-white subscribe-position">
+                        <input type="email" class="form-control btn  btn-outline-light white-color pl-3"
+                            placeholder="E-mail">
                         <span class="input-group-btn">
-                            <button class="btn text-uppercase  btn-theme btn-light btn__color-purple rounded-pill"
-                                type="submit">Subscribe</button>
+                            <button
+                                class="btn bg-white btn-light btn__color-purple text-uppercase font-weight-bold  rounded-pill btn__subscribe"
+                                type="submit">feliratkozom</button>
                         </span>
                     </div>
                 </div>
-
             </div>
+        </div>
         </div>
     </section>
 
@@ -305,9 +334,10 @@
     <div class="container pt-5 pb-5">
         <div class="row offer text-center">
             <div class="col-12">
-                <h3>video</h3>
-                <h1>videos edzéseink</h1>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                <h5 class="purple-color font-weight-bold pb-3 text-uppercase">video</h5>
+                <h3 class=" font-weight-bold text-uppercase">videos edzéseink</h3>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                    ut
                     laoreet dolore magna.
                     Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.</p>
             </div>
@@ -315,63 +345,63 @@
     </div>
 
     <div class="container">
-        <div class="row">
+        <div class="row text-center text-md-left">
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <img class="img-thumbnail" src="assets/images/sulyzos-edzesek.jpg" alt="sulyzos-edzesek videok">
+                <img class=" training-image img-thumbnail" src="assets/images/sulyzos-edzesek.jpg" alt="sulyzos-edzesek videok">
                 <div>
                     <p>2019. Július 20.</p>
                     <h5 class="font-weight-bold">Súlyzós edzések (1/14)</h5>
-                    <p>tovább</p>
+                    <p class="text-uppercase purple-color font-weight-bold">tovább</p>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <img class="img-thumbnail" src="assets/images/yoga-kezdoknek.jpg" alt="yoga-kezdoknek videok">
+                <img class="training-image img-thumbnail" src="assets/images/yoga-kezdoknek.jpg" alt="yoga-kezdoknek videok">
                 <div>
                     <p>2019. Július 20.</p>
                     <h5 class="font-weight-bold">Yoga kezdőknek</h5>
-                    <p>tovább</p>
+                    <p class="text-uppercase purple-color font-weight-bold">tovább</p>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                <img class="img-thumbnail" src="assets/images/fitness.jpg" alt="fitness videok">
+                <img class="training-image img-thumbnail" src="assets/images/fitness.jpg" alt="fitness videok">
                 <div>
                     <p>2019. Július 20.</p>
                     <h5 class="font-weight-bold">Fitness, cardio, motiváció (2/10)</h5>
-                    <p>tovább</p>
+                    <p class="text-uppercase purple-color font-weight-bold">tovább</p>
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row text-center text-md-left">
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                <img class="img-thumbnail" src="assets/images/sulyzos-edzesek2.jpg" alt="súlyzós videok">
+                <img class="training-image img-thumbnail" src="assets/images/sulyzos-edzesek2.jpg" alt="súlyzós videok">
                 <div>
                     <p>2019. Július 20.</p>
                     <h5 class="font-weight-bold">Súlyzós edzések (2/14)</h5>
-                    <p>tovább</p>
+                    <p class="text-uppercase purple-color font-weight-bold">tovább</p>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <img class="img-thumbnail" src="assets/images/nyujtsunk-egyutt.jpg" alt="nyujtsunk-egyutt videok">
+                <img class="training-image img-thumbnail" src="assets/images/nyujtsunk-egyutt.jpg" alt="nyujtsunk-egyutt videok">
                 <div>
                     <p>2019. Július 20.</p>
                     <h5 class="font-weight-bold">Nyújtsunk együtt</h5>
-                    <p>tovább</p>
+                    <p class="text-uppercase purple-color font-weight-bold">tovább</p>
                 </div>
             </div>
 
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                <img class="img-thumbnail" src="assets/images/futas-technikaja.jpg" alt="futas-technikaja videok">
+                <img class="training-image img-thumbnail" src="assets/images/futas-technikaja.jpg" alt="futas-technikaja videok">
                 <div>
                     <p>2019. Július 20.</p>
                     <h5 class="font-weight-bold">A futás technikája</h5>
-                    <p>tovább</p>
+                    <p class="text-uppercase purple-color font-weight-bold">tovább</p>
                 </div>
             </div>
         </div>
     </div>
 
     <div class="container">
-        <div class="row offer text-center  pb-5 pt-3">
+        <div class="row offer text-center  pb-3 pt-3">
             <div class="col-12">
 
                 <button class="btn text-uppercase  btn__color  rounded-pill" type="submit">összes</button>
@@ -383,9 +413,9 @@
 
     <div class="container pt-5 pb-5">
         <div class="row offer text-center">
-            <div class="col-12">
-                <h3>igp fitness</h3>
-                <h1>a csapatunk</h1>
+            <div class="col-12 text-uppercase">
+                <h5 class="purple-color font-weight-bold pb-3 text-uppercase">igp fitness</h5>
+                <h3 class="font-weight-bold">a csapatunk</h3>
             </div>
         </div>
     </div>
@@ -412,33 +442,34 @@
 
     <!--for business-->
 
-    <div class="container pt-5 pb-5">
-        <div class="media ">
-            <div class="col-xs-12 col-md-6">
-                <div class="media-left float-left">
-                    <a href="#">
-                        <img class="media-object w-75" src="assets/images/business.jpg" alt="cegeknek">
-                    </a>
-                </div>
-            </div>
+    <div id="for-business">
+        <div class="container pt-2 pb-5">
+            <div class="business-aligned">
 
-            <div class="col-xs-12 col-md-6">
-                <div class="media-body float-right text-right">
-                    <h3>csapatban</h3>
-                    <h1 class="media-heading">cégeknek</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                <div class="business-aligned__right-description">
+                    <h5 class="text-uppercase purple-color font-weight-bold pb-2">csapatban</h5>
+                    <h3 class="media-heading text-uppercase font-weight-bold pb-3">cégeknek</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                        tincidunt
                         ut
-                        laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
+                        laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
+                        exerci
                         tation
-                        ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+                        ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum
+                        iriure
                         dolor.</p>
-                    <button class="btn text-uppercase  btn__color   rounded-pill" type="submit">olvass
+                    <button class="btn text-uppercase btn__color rounded-pill" type="submit">olvass
                         tovább</button>
                 </div>
-            </div>
+                <div class="business-aligned__left-image">
 
+                    <img src="assets/images/business.jpg" alt="cegeknek">
+                </div>
+
+            </div>
         </div>
     </div>
+
 
     <!--Blog-->
 
@@ -446,34 +477,37 @@
         <div class="row pt-5 pb-5">
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                 <img class="img-thumbnail" src="assets/images/blog-image1.jpg" alt="stay fit">
-                <div>
+                <div class="card card-purple text-center text-md-left p-3">
                     <p>2019. Július 20.</p>
-                    <h5 class="font-weight-bold">maradj fit</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                    <h5 class="font-weight-bold text-uppercase">maradj fit</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                        tincidunt
                         ut laoreet dolore ipsum amet.</p>
-                    <p>olvass tovább</p>
+                    <a class="purple-color text-uppercase">olvass tovább</a>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                 <img class="img-thumbnail" src="assets/images/main-features-etrend&blog-image2.jpg" alt="stay fit">
-                <div>
+                <div class="card card-purple text-center text-md-left p-3">
                     <p>2019. Július 20.</p>
-                    <h5 class="font-weight-bold">maradj fit</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                    <h5 class="font-weight-bold text-uppercase">maradj fit</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                        tincidunt
                         ut laoreet dolore ipsum amet.</p>
 
-                    <p>olvass tovább</p>
+                    <a class="purple-color text-uppercase">olvass tovább</a>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                 <img class="img-thumbnail" src="assets/images/blog-image3.jpg" alt="stay fit">
-                <div>
+                <div class="card card-purple text-center text-md-left p-3">
                     <p>2019. Július 20.</p>
-                    <h5 class="font-weight-bold">maradj fit</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                    <h5 class="font-weight-bold text-uppercase">maradj fit</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                        tincidunt
                         ut laoreet dolore ipsum amet.</p>
 
-                    <p>olvass tovább</p>
+                    <a class="purple-color text-uppercase">olvass tovább</a>
                 </div>
             </div>
 
@@ -483,7 +517,7 @@
         <div class="row offer text-center  pb-5 pt-3">
             <div class="col-12">
 
-                <button class=" text-uppercase  btn__color  rounded-pill" type="submit">összes</button>
+                <button class="btn text-uppercase btn__color rounded-pill" type="submit">összes</button>
             </div>
         </div>
     </div>
@@ -494,7 +528,7 @@
     <section id="follow">
         <div class="follow-flex text-white">
             <div class="follow-flex__item background-image background-image__first">
-                <div class="follow-content ">
+                <div class="follow-content__first ">
                     <p>“Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonum”
                         SAM SMITH</p>
                 </div>
@@ -521,20 +555,20 @@
         <!--Footer-->
 
         <footer id="footer" class="font-small">
-            <div class="container text-center text-md-left">
-                <div class="row text-center text-md-left pb-5 pt-5 text-white">
+            <div class="container">
+                <div class="row  pb-5 pt-5 text-white">
 
-                    <div class="col-md-3 col-lg-3 col-xl-3">
+                    <div class="col-md-3 col-lg-3 col-xl-3 text-center text-md-left">
                         <h6 class="text-uppercase mb-4 font-weight-bold">igp fitness</h6>
                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
                             tincidunt ut laoreet dolore magna.
                             +36 30 333 3333
                         </p>
                     </div>
-                    <div class="col-md-3 col-lg-3 col-xl-3">
-                        <h6 class="text-uppercase mb-4 font-weight-bold">hírek</h6>
+                    <div class="col-md-3 col-lg-3 col-xl-3 text-center text-md-left">
+                        <h6 class="text-uppercase mb-4 mt-4 font-weight-bold">hírek</h6>
 
-                        <div class="mt-1 d-flex">
+                        <div class="mt-1 d-flex  justify-content-center">
                             <a href="#"> <img class="news-img mr-4" src="assets/images/footer-news.jpg" alt="ipg hírek">
                             </a>
                             <div class="text">
@@ -545,9 +579,10 @@
 
                         <hr class="hr">
 
-                        <div class="mt-5 d-flex">
+                        <div class="mt-5 d-flex  justify-content-center ">
                             <a href="#"> <img class="news-img mr-4" src="assets/images/footer-news2.jpg"
-                                    alt="ipg hírek"> </a>
+                                    alt="ipg hírek">
+                            </a>
                             <div class="text">
                                 <h6>LOREM IPSUM DOLOR</h6>
                                 <p>2019.07.16.</p>
@@ -556,10 +591,10 @@
 
                     </div>
 
-                    <div class="col-md-3 col-lg-3 col-xl-3">
+                    <div class="col-md-3 col-lg-3 col-xl-3 text-center text-md-left">
 
-                        <h6 class="text-uppercase mb-4 font-weight-bold">instagram</h6>
-                        <div class="d-flex">
+                        <h6 class="text-uppercase mb-4 font-weight-bold mt-4">instagram</h6>
+                        <div class="d-flex justify-content-center">
 
                             <div class="col-xs-4 mr-1 mb-1">
                                 <img class="footer-instagram" src="assets/images/footer-instagram.jpg" alt="">
@@ -572,9 +607,9 @@
                             </div>
                         </div>
 
-                        <div class=" d-flex">
+                        <div class=" d-flex justify-content-center">
 
-                            <div class="col-xs-4 mr-1 ">
+                            <div class="col-xs-4 mr-1 text-center text-md-left">
                                 <img class="footer-instagram" src="assets/images/footer-instagram4.jpg" alt="">
                             </div>
                             <div class="col-xs-4 mr-1">
@@ -588,8 +623,8 @@
                     </div>
 
 
-                    <div class="col-md-2 col-lg-2 col-xl-2 ">
-                        <h6 class="text-uppercase mb-4 font-weight-bold">hasznos</h6>
+                    <div class="col-md-2 col-lg-2 col-xl-2 text-center text-md-left">
+                        <h6 class="text-uppercase mb-4 font-weight-bold mt-4">hasznos</h6>
                         <ul class="footer-list">
                             <li>Kapcsolat</li>
                             <li>Cégeknek</li>
@@ -615,12 +650,12 @@
 
                 <div class="row pt-3">
 
-                    <div class="col-xs-12 col-md-6 align-left">
+                    <div class="col-xs-12 col-md-6 align-left  text-center text-md-left">
                         <p class="font-small text-md-left text-light">© Copyright IGP Fitness:
                         </p>
                     </div>
 
-                    <div class="ol-xs-12 col-md-6 align-right">
+                    <div class="col-xs-12 col-md-6 align-right  text-center text-md-left">
 
                         <ul class="social-icons text-md-right">
                             <span class="font-small text-white text-md-right">Kövess minket</span>
@@ -648,7 +683,7 @@
             </div>
         </div>
 
-
+        <script src="assets/scripts/modules/slider.js"></script>
         <script src="bundled.js"></script>
 
 </body>

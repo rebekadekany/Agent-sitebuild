@@ -1,0 +1,13 @@
+.training-image {
+    width: 50%;
+    text-align: center;
+    margin:auto;
+    display: block;
+    height: 55%;
+
+    @mixin atMedium{
+        width: 100%;
+        height: 70%;
+
+    }
+}

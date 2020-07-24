@@ -8,12 +8,21 @@
     }
 
     &__color-purple {
-        color: #8004BF; 
+        color: #8004BF;
     }
-    
-}
-.form-control {
-    border-radius: 20px 0 0 20px;
-    color: #fff;
-    text-align: left;
+
+    &__register {
+        padding: 10px 20px;
+    }
+
+    &__subscribe {
+        position: absolute;
+        left: 14rem;
+
+        @mixin atMedium {
+            left: 20rem;
+
+        }
+    }
+
 }

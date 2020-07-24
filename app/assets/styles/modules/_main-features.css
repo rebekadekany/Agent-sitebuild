@@ -6,15 +6,22 @@
     }
 
     .features-flex {
-        display: flex;
-        justify-content: center;
+        display: block;
         text-align: center;
-        align-items: center;
 
-
+        @mixin atMedium {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
         &__item {
-            flex: 1;
             min-height: 330px;
+
+
+            @mixin atMedium{
+                flex: 1;
+                min-height: 330px;
+                }
 
         }
     }

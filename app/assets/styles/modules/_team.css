@@ -23,14 +23,30 @@
 }
 
 .team-flex {
-    display: flex;
-    justify-content: center;
+    display: block;
     text-align: center;
-    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+
+    @mixin atMedium {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    
+    }
 
     &__item {
-        flex: 1;
-        min-height: 350px;
+        min-height: 230px;
+        min-width: 250px;
+        margin-bottom: 30px;
+
+        @mixin atMedium{
+            flex: 1;
+            min-height: 350px;
+    
+        }
         
     }
 }

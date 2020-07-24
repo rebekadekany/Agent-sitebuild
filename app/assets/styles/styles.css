@@ -1,20 +1,40 @@
 @import "base/_global";
 @import "base/_variables";
-@import "modules/_main-features.css";
-@import "modules/_large-hero.css";
+@import "base/_mixins";
 @import "modules/_button.css";
+@import "modules/_help&business.css";
+@import "modules/_large-hero.css";
+@import "modules/_main-features.css";
 @import "modules/_packages.css";
 @import "modules/_subscribe.css";
 @import "modules/_team.css";
 @import "modules/_follow.css";
 @import "modules/_footer.css";
+@import "modules/_training-videos.css";
+
+
 
 @font-face {
-    @import url("assets/fonts/Montserrat");
-    @import url("assets/fonts/Open_Sans");
+  @import url("assets/fonts/Montserrat");
+  @import url("assets/fonts/Open_Sans");
 
-  }
+}
 
+.card-purple{
+  border-bottom: 1px solid $mainPurple;
+  border-right: 1px solid $mainPurple;
+  border-left: 1px solid $mainPurple;
 
+}
 
+.purple-color{
+  color: $mainPurple;
+}
 
+.green-color {
+  color: $mainGreen;
+}
+
+.white-color {
+  color: #fff;
+}

@@ -1,10 +1,7 @@
 #large-hero {
     background-image: linear-gradient(45deg, #716AE4, #9B128D, #D7246C);
     height: 730px;
-
-    .text-green {
-        color: $mainGreen;
-    }
+    position: relative;
 }
 
 .brand-container {
@@ -13,15 +10,16 @@
     width: 6rem;
     position: relative;
 
-    a{
+    a {
         display: inline-block;
 
     }
 
     .letter-space {
         letter-spacing: 5px;
-        
-            }
+
+    }
+
     .position {
         position: absolute;
         bottom: -1em;
@@ -29,14 +27,61 @@
     }
 }
 
-.brand-font-size{
+.brand-font-size {
     font-size: 1.3em;
 }
 
-.letter-space-sm{
+.jumbotron {
+    z-index: 3;
+}
+
+.letter-space-sm {
     letter-spacing: 2px;
 }
 
 .navbar-font-size {
     font-size: 0.9em;
+}
+
+
+.hero-man {
+    position: absolute;
+    top: -100px;
+    left: 200%;
+
+    &__image {
+        height: 872px;
+
+        @mixin atMedium {
+            height: 770px;
+
+        }
+
+        @mixin atLarge {
+            height: 768px;
+
+        }
+    }
+}
+
+.hero-woman {
+    position: absolute;
+    top: -250px;
+    left: 130%;
+    z-index: 0;
+
+    &__image {
+        height: 872px;
+
+        @mixin atMedium {
+            height: 920px;
+
+        }
+
+        @mixin atLarge {
+            height: 918px;
+
+        }
+
+    }
 }
