@@ -1,7 +1,12 @@
 #large-hero {
     background-image: linear-gradient(45deg, #716AE4, #9B128D, #D7246C);
-    height: 730px;
+    height: 830px;
     position: relative;
+
+    @mixin atSmall{
+        height: 730px;
+
+    }
 }
 
 .brand-container {
@@ -50,7 +55,13 @@
     left: 200%;
 
     &__image {
-        height: 872px;
+        display: none;
+
+        @mixin atSmall{
+            display: block;
+            height: 872px;
+
+        }
 
         @mixin atMedium {
             height: 770px;
@@ -71,7 +82,15 @@
     z-index: 0;
 
     &__image {
-        height: 872px;
+
+        display: none;
+
+        @mixin atSmall {
+            display: block;
+
+            height: 872px;
+
+        }
 
         @mixin atMedium {
             height: 920px;
