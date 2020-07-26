@@ -1,7 +1,6 @@
 {
   "name": "creative-agent",
   "version": "1.0.0",
-  "description": "",
   "main": "webpack.config.js",
   "dependencies": {
     "@webpack-cli/init": "^0.3.0",
@@ -34,5 +33,6 @@
   "bugs": {
     "url": "https://github.com/kakapofelix/Agent-sitebuild/issues"
   },
-  "homepage": "https://github.com/kakapofelix/Agent-sitebuild#readme"
+  "homepage": "https://github.com/kakapofelix/Agent-sitebuild#readme",
+  "description": ""
 }
